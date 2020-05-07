@@ -13,7 +13,10 @@ Meanwhile, there is also a file called "full_model_name_updated.txt" under PROJE
 load this image) to the actual car model label.
 
 ## Model Description
-Directly use the implementation in torchvision for resnet50. 
+Directly use the implementation in torchvision for resnet50.
+
+The pretrained model should be downloaded [here](https://drive.google.com/file/d/12GewzNMJmmUqvumDogm7m16ewxRKqCLS/view?usp=sharing), and put into 
+PROJECT_ROOT/Code/checkpoint2/10_epoch.tar 
 
 ## Code
 All the codes are push onto this repository, but the final one with full annotations is PROJECT_ROOT/Code/CarClassificationDemo2.ipynb
