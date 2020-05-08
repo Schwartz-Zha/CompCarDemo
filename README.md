@@ -46,12 +46,16 @@ conda install jupyter #for installing jupyter notebook
 #use this line if you have a CUDA accelerated GPU
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
-#use this line is not
+#use this line if not
 conda install pytorch torchvision
 
 conda install PIL,scipy,matplotlib
 ```
-After installing all these necessary packages, it's time to see the demo.
+(5) Download the pretrained model [here](https://drive.google.com/file/d/12GewzNMJmmUqvumDogm7m16ewxRKqCLS/view), 
+and put it like CompCarDemo/Code/checkpoint2/10_epoch.tar
+
+
+(6) It's time to see the demo.
 
 ```shell
 jupyter notebook
