@@ -22,3 +22,38 @@ PROJECT_ROOT/Code/checkpoint2/10_epoch.tar
 All the codes are push onto this repository, but the final one with full annotations is PROJECT_ROOT/Code/CarClassificationDemo2.ipynb
 
 All the other codes are not for demonstration purpose.
+
+## How to use this demo
+
+(1) Download and extract the dataset [here](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt).
+
+(2) Download this project. And put the dataset just downloaded into PROJECT_ROOT/Dataset/. An image in thid 
+dataset should look like this CompCarDemo/Dataset/data/image/1/1101/2011/07b90decb92ba6.jpg
+
+(3) This project is built with jupyter notebook and several scientific packages of python. So it's highly 
+recommended to use anaconda to manage all these required packages in one place. Futhermore, miniconda is a much 
+more lighweighted version, which takes much smaller space than Anaconda. It could be downloaded 
+[here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+
+(4) After installing the anaconda, the command 'conda' should be available in the terminal. The discription below is 
+provided for Mac/Linux command line interface, simply because I'm unfamiliar with Windows termimal.
+
+```shell
+conda create --name CompCarDemoEnv python=3.6 #create a new environment in case the default python version is 2.x
+conda activate CompCarDemoEnv #enter the new environment
+conda install jupyter #for installing jupyter notebook
+
+#use this line if you have a CUDA accelerated GPU
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+#use this line is not
+conda install pytorch torchvision
+
+conda install PIL,scipy,matplotlib
+```
+After installing all these necessary packages, it's time to see the demo.
+
+```shell
+jupyter notebook
+```
+Then open the file CompCarDemo/Code/CarClassificationDemo2.ipynb in the browser interface. Ready to go.
