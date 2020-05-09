@@ -7,6 +7,9 @@ torch, torchvision, PIL, scipy, matplotlib
 
 The CompCar dataste is provided here http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
 
+It's inherited from the work of "Linjie Yang, Ping Luo, Chen Change Loy, Xiaoou Tang. A Large-Scale Car Dataset for 
+Fine-Grained Categorization and Verification, In Computer Vision and Pattern Recognition (CVPR), 2015."
+
 It's ecpteced to download and upzip the whole dataset under PROJECT_ROOT/Dataset.
 
 Meanwhile, there is also a file called "full_model_name_updated.txt" under PROJECT_ROOT?Dataset, while contains 136725 lines. Each line will map a image file's directory (used to 
