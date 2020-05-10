@@ -64,3 +64,11 @@ and put it like CompCarDemo/Code/checkpoint2/10_epoch.tar
 jupyter notebook
 ```
 Then open the file CompCarDemo/Code/CarClassificationDemo2.ipynb in the browser interface. Ready to go.
+
+# New Updates
+
+Add anotehr model in Code/CarClassification3.ipynb which is able to handle both car make and car model.
+
+The pretrained model is provided 
+[here](https://drive.google.com/file/d/1lzWuGR1YT-F-RLVTLRqUUxXp0f3aJ5s_/view?usp=sharing), and should be put like 
+Code/checkpoint4/10_epoch.tar
